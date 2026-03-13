@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug active file",
+      "name": "Debug active c file",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.out",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
@@ -13,7 +13,7 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
-      "preLaunchTask": "build active file"
+      "preLaunchTask": "build active c file"
     }
   ]
 }
